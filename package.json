@@ -1,0 +1,21 @@
+{
+  "name": "websocketproject",
+  "version": "1.0.0",
+  "description": "A WebSocket project example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node listener.js"
+  },
+  "keywords": [
+    "websocket",
+    "nodejs",
+    "server"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "ws": "^8.18.0"
+  }
+}
